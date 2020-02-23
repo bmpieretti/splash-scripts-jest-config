@@ -29,7 +29,8 @@
   "types": "TODO",
   "license": "MIT",
   "files": [
-    "splash.config.js"
+    "splash.config.js",
+    "jest.config.js"
   ],
   "scripts": {
     "semantic-release": "semantic-release",
@@ -39,11 +40,9 @@
     "@appnest/readme": "^1.2.4",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
+    "husky": "^4.2.3",
     "jest": "^25.1.0",
     "semantic-release": "^17.0.4"
-  },
-  "publishConfig": {
-    "access": "restricted"
   },
   "config": {
     "commitizen": {

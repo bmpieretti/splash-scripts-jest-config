@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: install
-          command: npm install
+          command: npm ci
       - run:
           name: release
-          command: npm run semantic-release || true
+          command: npm run semantic-release

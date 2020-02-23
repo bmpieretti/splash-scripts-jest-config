@@ -1,7 +1,7 @@
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)](#-pkgname-)
 
-# @splash/jest-config
+# @splash-plus/jest-config
 [![CircleCI](https://circleci.com/gh/bmpieretti/splash-scripts-jest-config.svg?style=svg)](https://circleci.com/gh/bmpieretti/splash-scripts-jest-config)
 
 <strong>Version: 0.0.0-development</strong>
@@ -12,7 +12,7 @@ Splash config for default jest commands
 
 ## Table of Contents
 
-* [@splash/jest-config](#splashjest-config)
+* [@splash-plus/jest-config](#splash-plusjest-config)
 	* [Installing](#installing)
 	* [Usage](#usage)
 		* [API](#api)
@@ -35,7 +35,7 @@ Splash config for default jest commands
 To install this library, install it from npm as a development dependency by running the command below:
 
 ```shell
-npm i --save-dev @splash/config-jest
+npm i --save-dev @splash-plus/config-jest
 ```
 
 

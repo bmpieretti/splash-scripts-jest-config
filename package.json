@@ -1,0 +1,53 @@
+{
+  "name": "@splash/jest-config",
+  "version": "0.0.0-development",
+  "description": "Splash config for default jest commands",
+  "keywords": [
+    "splash",
+    "splash-scripts",
+    "scripts",
+    "jest",
+    "config",
+    "scaffold"
+  ],
+  "author": {
+    "name": "Brook Pieretti",
+    "email": "bmpieretti@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmpieretti/splash-scripts-jest-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bmpieretti/splash-scripts-jest-config/issues",
+    "email": "bmpieretti@gmail.com"
+  },
+  "engines": {
+    "node": ">=8.12.0",
+    "npm": ">5.2.0"
+  },
+  "types": "TODO",
+  "license": "MIT",
+  "files": [
+    "splash.config.js"
+  ],
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "build:readme": "readme generate --config ./blueprint.json"
+  },
+  "devDependencies": {
+    "@appnest/readme": "^1.2.4",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "jest": "^25.1.0",
+    "semantic-release": "^17.0.4"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}

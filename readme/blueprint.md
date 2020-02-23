@@ -1,5 +1,7 @@
-# {{ pkg.name }} 
-<strong>Version: {{ pkg.version }}</strong> [![CircleCI](https://circleci.com/gh/bmpieretti/splash-scripts-jest-config.svg?style=svg)](https://circleci.com/gh/bmpieretti/splash-scripts-jest-config)
+# {{ pkg.name }}
+[![CircleCI](https://circleci.com/gh/bmpieretti/splash-scripts-jest-config.svg?style=svg)](https://circleci.com/gh/bmpieretti/splash-scripts-jest-config)
+
+<strong>Version: {{ pkg.version }}</strong>
 <br />
 {{ pkg.description }}
 {{ template:toc }}

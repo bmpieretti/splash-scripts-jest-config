@@ -4,7 +4,6 @@
 # @splash-plus/jest-config
 [![CircleCI](https://circleci.com/gh/bmpieretti/splash-scripts-jest-config.svg?style=svg)](https://circleci.com/gh/bmpieretti/splash-scripts-jest-config)
 
-<strong>Version: 0.0.0-development</strong>
 <br />
 Splash config for default jest commands
 

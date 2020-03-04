@@ -7,6 +7,13 @@
 
 ### Prerequisites
 
+To get started, simply clone the repo and install node deps
+```shell
+npm install
+```
+
+### Building
+
 In order to test this package locally for development purposes, it's best to clone this locally and either npm link this package or modify the package.json install path to point to your local instance in a package that can consume these modules.
 
 ### Setting up Dev
@@ -33,3 +40,5 @@ Changes are automatically published upon merging to the master branch via [seman
 ### Commiting
 
 Commits utilize [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog) to force commit history to follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
+
+Once files are staged, simply run `git commit` and husky will automatically run verify before running conventional commits to assist in formatting semantic commits.

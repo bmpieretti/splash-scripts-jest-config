@@ -6,7 +6,6 @@ module.exports = {
   commands: [
     {
       name: 'jest --config ./jest.config.js',
-      version: '',
       description: 'Runs tests',
       command: 'jest' + configPath
     }, {

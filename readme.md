@@ -21,6 +21,7 @@ Splash config for default jest commands
 	* [Developing](#developing)
 		* [Built With](#built-with)
 		* [Prerequisites](#prerequisites)
+		* [Building](#building)
 		* [Setting up Dev](#setting-up-dev)
 		* [Deploying / Publishing](#deploying--publishing)
 		* [Commiting](#commiting)
@@ -90,6 +91,13 @@ Runs all tests in code coverage mode.
 
 ### Prerequisites
 
+To get started, simply clone the repo and install node deps
+```shell
+npm install
+```
+
+### Building
+
 In order to test this package locally for development purposes, it's best to clone this locally and either npm link this package or modify the package.json install path to point to your local instance in a package that can consume these modules.
 
 ### Setting up Dev
@@ -117,12 +125,14 @@ Changes are automatically published upon merging to the master branch via [seman
 
 Commits utilize [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog) to force commit history to follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
+Once files are staged, simply run `git commit` and husky will automatically run verify before running conventional commits to assist in formatting semantic commits.
+
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)](#versioning)
 
 ## Versioning
 
-Using [SemVer](http://semver.org/) for versioning. For the versions available, see the TODO: [link to tags on this repository](/tags).
+Using [SemVer](http://semver.org/) for versioning. For the versions available, see the release [tags](https://github.com/bmpieretti/splash-scripts-jest-config/tags).
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)](#licensing)

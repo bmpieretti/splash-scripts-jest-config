@@ -1,4 +1,4 @@
-
+<!-- ⚠️ This README has been generated from the file(s) "./readme/blueprint.md" ⚠️-->
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)](#-pkgname-)
 
 # @splash-plus/jest-config

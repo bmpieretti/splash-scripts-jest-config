@@ -1,21 +1,22 @@
 const path = require('path');
 
+const jestVersion = 'jest@^25.3.0'
 const configPath = ' --config ' + path.resolve(__dirname) + '/jest.config.js'
 
 module.exports = {
   commands: [
     {
-      name: 'jest --config ./jest.config.js',
+      name: 'test',
       description: 'Runs tests',
-      command: 'jest' + configPath
+      command: jestVersion + configPath
     }, {
-      name: 'jest:watch --config ./jest.config.js',
+      name: 'test:watch',
       description: 'Runs jest tests in watch mode',
-      command: 'jest --watch' + configPath
+      command: jestVersion + ' --watch' + configPath
     }, {
-      name: 'jest:coverage',
+      name: 'test:coverage',
       description: 'Runs jest code coverage',
-      command: 'jest --coverage' + configPath
+      command: jestVersion + ' --coverage' + configPath
     }
   ]
 };

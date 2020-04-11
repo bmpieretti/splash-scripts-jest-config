@@ -15,9 +15,9 @@ Splash config for default jest commands
 	* [Installing](#installing)
 	* [Usage](#usage)
 		* [API](#api)
-				* [# test](#-test)
-				* [# test:watch](#-testwatch)
-				* [# test:coverage](#-testcoverage)
+			* [test](#test)
+			* [test:watch](#testwatch)
+			* [test:coverage](#testcoverage)
 	* [Developing](#developing)
 		* [Built With](#built-with)
 		* [Prerequisites](#prerequisites)
@@ -55,7 +55,7 @@ To run this module, import the module into a project using [splash-scripts](http
 
 ### API
 
-#### # test
+#### test
 ```
 splash-scripts test
 ```
@@ -64,20 +64,19 @@ Runs all tests withing the current directory using the config defined in this pa
 
 **Note** All commands support additional passed in arguments via simply appending them to the splash-scripts call: `splash-scripts [command] [...options]`
 
-#### # test:watch
+#### test:watch
 ```
 splash-scripts test:watch
 ```
 
 Runs all tests withing the current directory using the config defined in this package in watch mode.
 
-#### # test:coverage
+#### test:coverage
 ```
 splash-scripts test:coverage
 ```
 
 Runs all tests in code coverage mode.
-
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)](#developing)

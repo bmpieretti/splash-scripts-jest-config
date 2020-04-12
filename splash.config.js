@@ -7,15 +7,15 @@ module.exports = {
   commands: [
     {
       name: 'test',
-      description: 'Runs tests',
+      description: 'Runs tests with ' + jestVersion,
       command: jestVersion + configPath
     }, {
       name: 'test:watch',
-      description: 'Runs jest tests in watch mode',
+      description: 'Runs jest tests in watch mode with ' + jestVersion,
       command: jestVersion + ' --watch' + configPath
     }, {
       name: 'test:coverage',
-      description: 'Runs jest code coverage',
+      description: 'Runs jest code coverage mode with ' + jestVersion,
       command: jestVersion + ' --coverage' + configPath
     }
   ]

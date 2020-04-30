@@ -35,7 +35,7 @@ Splash config for default jest commands
 To install this library, install it from npm as a development dependency by running the command below:
 
 ```shell
-npm i --save-dev @splash-plus/config-jest
+npm i --save-dev @splash-plus/jest-config
 ```
 
 
@@ -48,7 +48,7 @@ To run this module, import the module into a project using [splash-scripts](http
 ``` js
 // splash.config.js
 {
-  extends: ['splash-scripts-jest-config'],
+  extends: ['@splash-plus/jest-config'],
   ...
 }
 ```

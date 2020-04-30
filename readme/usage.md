@@ -5,7 +5,7 @@ To run this module, import the module into a project using [splash-scripts](http
 ``` js
 // splash.config.js
 {
-  extends: ['splash-scripts-jest-config'],
+  extends: ['@splash-plus/jest-config'],
   ...
 }
 ```

@@ -1,6 +1,6 @@
 const path = require('path');
 
-const jestVersion = 'jest@^25.3.0'
+const jestVersion = 'jest'
 const configPath = ' --config ' + path.resolve(__dirname) + '/jest.config.js'
 
 module.exports = {

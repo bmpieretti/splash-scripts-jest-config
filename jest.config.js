@@ -1,12 +1,15 @@
+const path = require('path')
+
 module.exports = {
   rootDir: process.cwd(),
   watchPathIgnorePatterns: [
-    '<rootDir>/src/helpers/tests/files',
     '<rootDir>/lib/'
   ],
+  globalSetup: path.join(__dirname, '/src/jestSetup.js'),
   testPathIgnorePatterns: ['<rootDir>/lib/'],
   coveragePathIgnorePatterns: ['<rootDir>/lib/', '<rootDir>/(?:.+?)/configs/'],
   coverageReporters: ['html', 'text'],
+  errorOnDeprecated: true,
   coverageThreshold: {
     global: {
       branches: 100,

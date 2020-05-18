@@ -18,6 +18,7 @@ Splash config for default jest commands
 			* [test](#test)
 			* [test:watch](#testwatch)
 			* [test:coverage](#testcoverage)
+		* [Chance Instance](#chance-instance)
 	* [Developing](#developing)
 		* [Built With](#built-with)
 		* [Prerequisites](#prerequisites)
@@ -77,6 +78,19 @@ splash-scripts test:coverage
 ```
 
 Runs all tests in code coverage mode.
+
+### Chance Instance
+This module also exports a seeded [ChanceJS](https://chancejs.com/) instance you can leverage in your tests by simply requiring it from this module:
+```js
+import { chance } from '@splash-plus/jest-config';
+
+chance.sentence();
+```
+
+This allows you to seed any randomness needed in tests to get consistent behavior in the event of a flaky test run. This module will log the current seed before jest runs any test, and in order to use a seed, provide it via an env to the script such as the below example:
+```
+export SEED=123456789
+```
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/water.png)](#developing)
